@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ProjectEuler.Problems;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,10 +7,12 @@ using System.Threading.Tasks;
 
 namespace ProjectEuler
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
-        {
+        public static void Main(string[] args)
+        {            
+            Console.WriteLine(Problem1.GetMultiplesOf3or5(1000));
+            Console.ReadLine();
         }
     }
 }
