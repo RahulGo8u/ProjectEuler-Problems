@@ -13,7 +13,7 @@ namespace ProjectEuler.Problems
     The sum of these multiples is 23.
     Find the sum of all the multiples of 3 or 5 below 1000.
      */
-    internal class Problem1
+    class Problem1
     {                
         internal static long GetMultiplesOf3or5(long limit)
         {            
